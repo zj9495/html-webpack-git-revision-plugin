@@ -1,0 +1,29 @@
+{
+  "name": "html-webpack-git-revision-plugin",
+  "version": "1.0.0",
+  "description": "Webpack plugin that generates the latest git commit hash within html meta tag for versioning build",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "html-webpack-plugin"
+  ],
+  "author": "js-newbee <newbee.js@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-newbee/html-webpack-git-revision-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/js-newbee/html-webpack-git-revision-plugin/issues"
+  },
+  "homepage": "https://github.com/js-newbee/html-webpack-git-revision-plugin#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": ">=4.0.0"
+  }
+}
